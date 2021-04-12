@@ -116,7 +116,7 @@ async def HelpWatermark(bot, cmd):
 	await cmd.reply_text(
 		text=Config.USAGE_WATERMARK_ADDER,
 		parse_mode="Markdown",
-		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
+		reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/mikiadarsh25"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Source Code", url="https://github.com/AbirHasan2005/Watermark-Bot")]]),
 		disable_web_page_preview=True
 	)
 
@@ -489,7 +489,7 @@ async def VidWatermarkAdder(bot, cmd):
 			height=height,
 			reply_to_message_id=cmd.message_id,
 			supports_streaming=True,
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/mikiadarsh25")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]),
 			progress=progress_for_pyrogram,
 			progress_args=(
 				"Uploading, Wait Sir ...",
@@ -513,7 +513,7 @@ async def VidWatermarkAdder(bot, cmd):
 			height=height,
 			reply_to_message_id=cmd.message_id,
 			supports_streaming=True,
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/mikiadarsh25")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")], [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")]]),
 			progress=progress_for_pyrogram,
 			progress_args=(
 				"Uploading, Wait Sir ...",
@@ -682,7 +682,7 @@ async def button(bot, cmd: CallbackQuery):
 		await cmd.message.edit(
 			text=Config.USAGE_WATERMARK_ADDER,
 			parse_mode="Markdown",
-			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]]),
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Developer", url="https://t.me/mikiadarsh25"), InlineKeyboardButton("Support Group", url="https://t.me/linux_repo")], [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")]]),
 			disable_web_page_preview=True
 		)
 
